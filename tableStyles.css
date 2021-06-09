@@ -1,0 +1,38 @@
+table{
+	border: solid 1pt black;
+}
+
+caption{
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: 3px solid #DCA000;
+	border-bottom: 3px solid #DCA000;
+}
+
+th{
+	/*border: solid 1pt black;*/
+	padding: 10pt;
+	background-color: #CACACA;
+}
+
+tr:nth-child(even){
+	background-color: orange;
+}
+
+td{
+	border: solid 1pt black;
+	padding: 10pt;
+}
+
+tfoot{
+	font-weight: bold;
+	text-align: center;
+}
+
+tr:hover{
+	background-color: #9E9E9E;
+	color: black;
+}
+
